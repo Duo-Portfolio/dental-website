@@ -1,0 +1,17 @@
+{
+    "faqs": [
+      {
+        "question": "What services do you offer?",
+        "answer": "We offer a wide range of services, including dental consultations, cleanings, and specialized treatments. Our team is here to help you with all of your dental needs."
+      },
+      {
+        "question": "How can I book an appointment?",
+        "answer": "You can book an appointment through our website or call us directly. Our staff will be happy to assist you in finding a convenient time."
+      },
+      {
+        "question": "Do you accept insurance?",
+        "answer": "Yes, we work with many insurance providers. Please contact us to confirm if we accept your insurance."
+      }
+    ]
+  }
+  

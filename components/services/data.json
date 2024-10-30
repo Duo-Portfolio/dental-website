@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Restorative",
+      "description": "Restore damaged or decayed teeth with our advanced restorative techniques.",
+      "image": "/images/restorative.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Orthodontic",
+      "description": "Achieve a perfect smile with our orthodontic services including braces and aligners.",
+      "image": "/images/orthodontic.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Prosthodontic Fixed",
+      "description": "Get permanent solutions for missing teeth with our fixed prosthodontics.",
+      "image": "/images/prosthodontic-fixed.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Partial Prosthodontic",
+      "description": "Enhance your smile with our partial prosthodontic services.",
+      "image": "/images/partial-prosthodontic.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Implant",
+      "description": "Replace missing teeth with dental implants that look and function like natural teeth.",
+      "image": "/images/implant.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Pedodontic",
+      "description": "Specialized dental care for children to ensure healthy growth of their teeth.",
+      "image": "/images/pedodontic.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Minor and Major Surgery",
+      "description": "Expert surgical care for various dental needs.",
+      "image": "/images/surgery.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GA Services",
+      "description": "General anesthesia services for a comfortable dental experience.",
+      "image": "/images/ga-services.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cosmetic",
+      "description": "Enhance your smile with our cosmetic dentistry options.",
+      "image": "/images/cosmetic.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Botox/Filler Skin Care",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "/images/botox-filler.jpg"
+    },
+    {
+      "id": 11,
+      "title": "PerioDontitis",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "/images/botox-filler.jpg"
+    },
+    {
+      "id": 12,
+      "title": "x-ray",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "/images/botox-filler.jpg"
+    }
+  ]
+  
