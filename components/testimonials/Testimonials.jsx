@@ -38,7 +38,7 @@ const Testimonials = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          What Our Users Say
+          OUR DOCTORS
         </motion.h2>
 
         <div className="relative overflow-hidden">

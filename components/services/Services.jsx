@@ -3,11 +3,8 @@
 
 import React from "react";
 import services from "./data.json"; // Adjust the path as needed
-import useParallax from "../../hooks/useParallax"; // Adjust the path as needed
 
 const Services = () => {
-  const parallaxOffset = useParallax(0.5); // Increased speed for more noticeable effect
-
   return (
     <div className="container mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-8 text-teal-600">
@@ -20,12 +17,11 @@ const Services = () => {
             className="bg-white border border-gray-300 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 hover:bg-teal-50 hover:scale-105"
           >
             <div
-              className="w-full h-48 object-cover relative"
+              className="w-full h-[25rem] object-cover relative"
               style={{
                 backgroundImage: `url(${service.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                transform: `translateY(-${parallaxOffset}px) scale(1.1)`, // Added scaling effect
                 transition: "transform 0.3s ease",
               }}
             >
