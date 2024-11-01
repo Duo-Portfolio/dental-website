@@ -4,12 +4,13 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
 import { MdPhone, MdEmail } from "react-icons/md";
-
-const testimonialsData = require("./data.json");
+import { getTestimonials } from "@/model/testimonials";
 
 const Testimonials = () => {
   const scrollerRef = useRef(null);
   const [start, setStart] = useState(false);
+
+  const testimonialsData = getTestimonials();
 
   useEffect(() => {
     addAnimation();

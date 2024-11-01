@@ -1,8 +1,7 @@
 // app/components/Hero.jsx
-
 import Link from "next/link";
 
-const Hero = () => {
+const Hero = ({ src }) => {
   return (
     <section className="relative overflow-hidden text-white py-40 px-6 text-center">
       {/* Background Video */}
@@ -14,7 +13,7 @@ const Hero = () => {
           muted
           playsInline
         >
-          <source src="/hero.mp4" type="video/mp4" />
+          <source src={src} type="video/mp4" />
           {/* Fallback for browsers that don't support the video tag */}
           Your browser does not support the video tag.
         </video>

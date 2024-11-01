@@ -1,13 +1,12 @@
 // src/components/Services.jsx
-"use client";
 
 import React from "react";
 import Link from "next/link"; // Import Link from next/link
-import services from "./data.json"; // Adjust the path as needed
-import { useRouter } from "next/navigation";
+import { getServices } from "@/model/services";
 
-const Services = () => {
-  const router = useRouter();
+const Services = async () => {
+  const services = await getServices(); // Await if this function returns a Promise
+
   return (
     <div className="container mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-8 text-teal-600">
@@ -17,7 +16,7 @@ const Services = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="bg-gradient-to-b from-teal-50 to-teal-100 border border-gray-300 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 hover:bg-teal-50"
+            className="bg-gradient-to-b from-teal-50 to-teal-100 border border-gray-300 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 hover:bg-teal-50 hover:scale-105"
           >
             <div
               className="w-full h-[25rem] object-cover relative"

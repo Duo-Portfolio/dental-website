@@ -5,7 +5,31 @@
     "description": "Restore damaged or decayed teeth with our advanced restorative techniques.",
     "image": "https://lirp.cdn-website.com/5dc98d87/dms3rep/multi/opt/before-after-veneer-replace-640w.png",
     "content": "Our restorative techniques include fillings, crowns, and bridges to restore the function and appearance of your teeth. We use state-of-the-art materials that blend seamlessly with your natural teeth.",
+    "prices": {
+      "amalgam restoration": "$50",
+      "composite restoration": {
+        "anterior": "$100",
+        "posterior": "$80"
+      }
+     
+    },
+    "packages": {
+      "basic restorative package": "$250 - includes 2 amalgam restorations and 1 composite restoration",
+      "complete restorative package": "$1,500 - includes 2 crowns and 1 bridge"
+    },
     "cases": [
+      {
+        "before": "https://example.com/before1.jpg",
+        "after": "https://example.com/after1.jpg"
+      },
+      {
+        "before": "https://example.com/before1.jpg",
+        "after": "https://example.com/after1.jpg"
+      },
+      {
+        "before": "https://example.com/before1.jpg",
+        "after": "https://example.com/after1.jpg"
+      },
       {
         "before": "https://example.com/before1.jpg",
         "after": "https://example.com/after1.jpg"
@@ -18,6 +42,13 @@
     "description": "Achieve a perfect smile with our orthodontic services including braces and aligners.",
     "image": "https://m.media-amazon.com/images/I/81YAA3vCizL.jpg",
     "content": "Our orthodontic services help align your teeth and jaws for better aesthetics and function. We offer traditional braces as well as modern clear aligners to suit your lifestyle.",
+    "prices": {
+      "traditional braces": "$3,000",
+      "clear aligners": "$4,500"
+    },
+    "packages": {
+      "orthodontic consultation package": "$100 - includes initial consultation and treatment plan"
+    },
     "cases": [
       {
         "before": "https://example.com/before2.jpg",
@@ -31,6 +62,13 @@
     "description": "Get permanent solutions for missing teeth with our fixed prosthodontics.",
     "image": "https://i3.wp.com/smileartsny.com/wp-content/uploads/2021/08/veneer3.jpg?ssl=1",
     "content": "Fixed prosthodontics involve crowns, bridges, and dentures that are permanently attached. They restore the function of your teeth and improve your smile's aesthetics.",
+    "prices": {
+      "crown": "$800",
+      "bridge": "$1,200"
+    },
+    "packages": {
+      "fixed prosthodontic package": "$2,000 - includes 2 crowns and 1 bridge"
+    },
     "cases": [
       {
         "before": "https://example.com/before3.jpg",
@@ -44,6 +82,12 @@
     "description": "Enhance your smile with our partial prosthodontic services.",
     "image": "https://www.nelsondentalcarela.com/blog/wp-content/uploads/2021/08/AdobeStock_342694770__1625062374_41069.jpg",
     "content": "Partial prosthodontics provide a solution for those with missing teeth. Our custom partial dentures are designed to blend with your existing teeth for a natural look.",
+    "prices": {
+      "partial denture": "$1,200"
+    },
+    "packages": {
+      "partial prosthodontic package": "$1,500 - includes a partial denture and a follow-up consultation"
+    },
     "cases": [
       {
         "before": "https://example.com/before4.jpg",
@@ -57,6 +101,13 @@
     "description": "Replace missing teeth with dental implants that look and function like natural teeth.",
     "image": "https://miami.institute/wp-content/uploads/2023/08/Integration-of-Digital-Workflow-in-Implant-Dentistry2.jpg",
     "content": "Dental implants are a long-term solution for missing teeth, involving a titanium post that serves as the root, topped with a natural-looking crown. They help maintain jawbone health and restore function.",
+    "prices": {
+      "single implant": "$3,000",
+      "implant crown": "$1,200"
+    },
+    "packages": {
+      "implant package": "$4,000 - includes 1 implant and crown with follow-up visits"
+    },
     "cases": [
       {
         "before": "https://example.com/before5.jpg",
@@ -70,6 +121,13 @@
     "description": "Specialized dental care for children to ensure healthy growth of their teeth.",
     "image": "https://www.lovettdental.com/wp-content/uploads/2021/05/How-to-Choose-a-Pediatric-Dental-Office-3.jpg",
     "content": "Our pedodontic services are tailored for children, focusing on preventive care and education to promote healthy dental habits from an early age.",
+    "prices": {
+      "pediatric exam": "$50",
+      "fluoride treatment": "$30"
+    },
+    "packages": {
+      "kids' dental package": "$70 - includes exam and fluoride treatment"
+    },
     "cases": [
       {
         "before": "https://example.com/before6.jpg",
@@ -83,6 +141,13 @@
     "description": "Expert surgical care for various dental needs.",
     "image": "https://ormeaudental.com.au/wp-content/uploads/2023/08/Wisdom-Tooth-X-Ray.jpg",
     "content": "Our team provides comprehensive surgical services for tooth extractions, biopsies, and more complex procedures. We ensure patient comfort and safety throughout the process.",
+    "prices": {
+      "tooth extraction": "$150",
+      "wisdom tooth extraction": "$300"
+    },
+    "packages": {
+      "surgical package": "$400 - includes consultation and simple tooth extraction"
+    },
     "cases": [
       {
         "before": "https://example.com/before7.jpg",
@@ -96,6 +161,12 @@
     "description": "General anesthesia services for a comfortable dental experience.",
     "image": "https://www.shutterstock.com/image-photo/dental-surgery-modern-clinic-woman-600nw-2482787037.jpg",
     "content": "We offer general anesthesia for patients who require extensive dental work or have anxiety about procedures. Our trained staff ensures a safe and comfortable experience.",
+    "prices": {
+      "general anesthesia": "$500"
+    },
+    "packages": {
+      "GA comfort package": "$700 - includes GA and consultation for extensive procedures"
+    },
     "cases": [
       {
         "before": "https://example.com/before8.jpg",
@@ -109,6 +180,14 @@
     "description": "Enhance your smile with our cosmetic dentistry options.",
     "image": "https://www.andersonsmile.com/blog/wp-content/uploads/AdobeStock_46467358-910x1024.jpeg",
     "content": "Our cosmetic dentistry services include teeth whitening, veneers, and bonding to improve the appearance of your smile. We tailor our treatments to fit your unique needs.",
+    "prices": {
+      "teeth whitening": "$300",
+      "veneers": "$1,000",
+      "bonding": "$400"
+    },
+    "packages": {
+      "cosmetic package": "$400 - includes scaling, polishing, and teeth whitening (normally $200)"
+    },
     "cases": [
       {
         "before": "https://example.com/before9.jpg",
@@ -120,8 +199,15 @@
     "id": 10,
     "title": "Botox/Filler Skin Care",
     "description": "Revitalize your appearance with our botox and filler services.",
-    "image": "https://growth99.com/storage/2023/02/3-Ways-to-Run-Ads-For-Filler-For-Your-Medical-Spa-1024x683.jpg",
-    "content": "We provide Botox and dermal fillers to enhance your facial aesthetics, smoothing out wrinkles and adding volume where needed.",
+    "image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320510/botox-injection-botox-vs-fillers.jpg",
+    "content": "Our dental practice offers botox and dermal fillers to help reduce the appearance of fine lines and enhance your smile. Our experienced professionals ensure safe and effective treatments.",
+    "prices": {
+      "botox": "$300",
+      "filler": "$500"
+    },
+    "packages": {
+      "aesthetic package": "$700 - includes both botox and filler treatment"
+    },
     "cases": [
       {
         "before": "https://example.com/before10.jpg",
@@ -140,11 +226,23 @@
         "before": "https://example.com/before11.jpg",
         "after": "https://example.com/after11.jpg"
       }
-    ]
+    ],
+    "prices": {
+      "consultation": 100,
+      "scaling and root planing": {
+        "anterior": 250,
+        "posterior": 300
+      },
+      "periodontal maintenance": 150
+    },
+    "packages": {
+      "basic package": 300,
+      "premium package": 500
+    }
   },
   {
     "id": 12,
-    "title": "x-ray",
+    "title": "X-ray",
     "description": "Revitalize your appearance with our botox and filler services.",
     "image": "https://www.shutterstock.com/image-photo/young-woman-patient-standing-xray-600nw-686871211.jpg",
     "content": "X-ray services help us diagnose and plan treatments for dental issues effectively. We use advanced imaging technology for accurate assessments.",
@@ -153,6 +251,15 @@
         "before": "https://example.com/before12.jpg",
         "after": "https://example.com/after12.jpg"
       }
-    ]
+    ],
+    "prices": {
+      "single x-ray": 50,
+      "full mouth series": 150,
+      "panoramic x-ray": 100
+    },
+    "packages": {
+      "x-ray package": 120,
+      "complete dental package": 350
+    }
   }
 ]
