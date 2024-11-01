@@ -1,75 +1,158 @@
 [
-    {
-      "id": 1,
-      "title": "Restorative",
-      "description": "Restore damaged or decayed teeth with our advanced restorative techniques.",
-      "image": "https://lirp.cdn-website.com/5dc98d87/dms3rep/multi/opt/before-after-veneer-replace-640w.png"
-    },
-    {
-      "id": 2,
-      "title": "Orthodontic",
-      "description": "Achieve a perfect smile with our orthodontic services including braces and aligners.",
-      "image": "https://m.media-amazon.com/images/I/81YAA3vCizL.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Prosthodontic Fixed",
-      "description": "Get permanent solutions for missing teeth with our fixed prosthodontics.",
-      "image": "https://i3.wp.com/smileartsny.com/wp-content/uploads/2021/08/veneer3.jpg?ssl=1"
-    },
-    {
-      "id": 4,
-      "title": "Partial Prosthodontic",
-      "description": "Enhance your smile with our partial prosthodontic services.",
-      "image": "https://www.nelsondentalcarela.com/blog/wp-content/uploads/2021/08/AdobeStock_342694770__1625062374_41069.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Implant",
-      "description": "Replace missing teeth with dental implants that look and function like natural teeth.",
-      "image": "https://miami.institute/wp-content/uploads/2023/08/Integration-of-Digital-Workflow-in-Implant-Dentistry2.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Pedodontic",
-      "description": "Specialized dental care for children to ensure healthy growth of their teeth.",
-      "image": "https://www.lovettdental.com/wp-content/uploads/2021/05/How-to-Choose-a-Pediatric-Dental-Office-3.jpg"
-    },
-    {
-      "id": 7,
-      "title": "Minor and Major Surgery",
-      "description": "Expert surgical care for various dental needs.",
-      "image": "https://ormeaudental.com.au/wp-content/uploads/2023/08/Wisdom-Tooth-X-Ray.jpg"
-    },
-    {
-      "id": 8,
-      "title": "GA Services",
-      "description": "General anesthesia services for a comfortable dental experience.",
-      "image": "https://www.shutterstock.com/image-photo/dental-surgery-modern-clinic-woman-600nw-2482787037.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Cosmetic",
-      "description": "Enhance your smile with our cosmetic dentistry options.",
-      "image": "https://www.andersonsmile.com/blog/wp-content/uploads/AdobeStock_46467358-910x1024.jpeg"
-    },
-    {
-      "id": 10,
-      "title": "Botox/Filler Skin Care",
-      "description": "Revitalize your appearance with our botox and filler services.",
-      "image": "https://growth99.com/storage/2023/02/3-Ways-to-Run-Ads-For-Filler-For-Your-Medical-Spa-1024x683.jpg"
-    },
-    {
-      "id": 11,
-      "title": "PerioDontitis",
-      "description": "Revitalize your appearance with our botox and filler services.",
-      "image": "https://www.batesondentistry.com/wp-content/uploads/2021/09/Tool-Scraping-Plaque-Off-Teeth.jpg"
-    },
-    {
-      "id": 12,
-      "title": "x-ray",
-      "description": "Revitalize your appearance with our botox and filler services.",
-      "image": "https://www.shutterstock.com/image-photo/young-woman-patient-standing-xray-600nw-686871211.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Restorative",
+    "description": "Restore damaged or decayed teeth with our advanced restorative techniques.",
+    "image": "https://lirp.cdn-website.com/5dc98d87/dms3rep/multi/opt/before-after-veneer-replace-640w.png",
+    "content": "Our restorative techniques include fillings, crowns, and bridges to restore the function and appearance of your teeth. We use state-of-the-art materials that blend seamlessly with your natural teeth.",
+    "cases": [
+      {
+        "before": "https://example.com/before1.jpg",
+        "after": "https://example.com/after1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Orthodontic",
+    "description": "Achieve a perfect smile with our orthodontic services including braces and aligners.",
+    "image": "https://m.media-amazon.com/images/I/81YAA3vCizL.jpg",
+    "content": "Our orthodontic services help align your teeth and jaws for better aesthetics and function. We offer traditional braces as well as modern clear aligners to suit your lifestyle.",
+    "cases": [
+      {
+        "before": "https://example.com/before2.jpg",
+        "after": "https://example.com/after2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Prosthodontic Fixed",
+    "description": "Get permanent solutions for missing teeth with our fixed prosthodontics.",
+    "image": "https://i3.wp.com/smileartsny.com/wp-content/uploads/2021/08/veneer3.jpg?ssl=1",
+    "content": "Fixed prosthodontics involve crowns, bridges, and dentures that are permanently attached. They restore the function of your teeth and improve your smile's aesthetics.",
+    "cases": [
+      {
+        "before": "https://example.com/before3.jpg",
+        "after": "https://example.com/after3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Partial Prosthodontic",
+    "description": "Enhance your smile with our partial prosthodontic services.",
+    "image": "https://www.nelsondentalcarela.com/blog/wp-content/uploads/2021/08/AdobeStock_342694770__1625062374_41069.jpg",
+    "content": "Partial prosthodontics provide a solution for those with missing teeth. Our custom partial dentures are designed to blend with your existing teeth for a natural look.",
+    "cases": [
+      {
+        "before": "https://example.com/before4.jpg",
+        "after": "https://example.com/after4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Implant",
+    "description": "Replace missing teeth with dental implants that look and function like natural teeth.",
+    "image": "https://miami.institute/wp-content/uploads/2023/08/Integration-of-Digital-Workflow-in-Implant-Dentistry2.jpg",
+    "content": "Dental implants are a long-term solution for missing teeth, involving a titanium post that serves as the root, topped with a natural-looking crown. They help maintain jawbone health and restore function.",
+    "cases": [
+      {
+        "before": "https://example.com/before5.jpg",
+        "after": "https://example.com/after5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pedodontic",
+    "description": "Specialized dental care for children to ensure healthy growth of their teeth.",
+    "image": "https://www.lovettdental.com/wp-content/uploads/2021/05/How-to-Choose-a-Pediatric-Dental-Office-3.jpg",
+    "content": "Our pedodontic services are tailored for children, focusing on preventive care and education to promote healthy dental habits from an early age.",
+    "cases": [
+      {
+        "before": "https://example.com/before6.jpg",
+        "after": "https://example.com/after6.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Minor and Major Surgery",
+    "description": "Expert surgical care for various dental needs.",
+    "image": "https://ormeaudental.com.au/wp-content/uploads/2023/08/Wisdom-Tooth-X-Ray.jpg",
+    "content": "Our team provides comprehensive surgical services for tooth extractions, biopsies, and more complex procedures. We ensure patient comfort and safety throughout the process.",
+    "cases": [
+      {
+        "before": "https://example.com/before7.jpg",
+        "after": "https://example.com/after7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "GA Services",
+    "description": "General anesthesia services for a comfortable dental experience.",
+    "image": "https://www.shutterstock.com/image-photo/dental-surgery-modern-clinic-woman-600nw-2482787037.jpg",
+    "content": "We offer general anesthesia for patients who require extensive dental work or have anxiety about procedures. Our trained staff ensures a safe and comfortable experience.",
+    "cases": [
+      {
+        "before": "https://example.com/before8.jpg",
+        "after": "https://example.com/after8.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cosmetic",
+    "description": "Enhance your smile with our cosmetic dentistry options.",
+    "image": "https://www.andersonsmile.com/blog/wp-content/uploads/AdobeStock_46467358-910x1024.jpeg",
+    "content": "Our cosmetic dentistry services include teeth whitening, veneers, and bonding to improve the appearance of your smile. We tailor our treatments to fit your unique needs.",
+    "cases": [
+      {
+        "before": "https://example.com/before9.jpg",
+        "after": "https://example.com/after9.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Botox/Filler Skin Care",
+    "description": "Revitalize your appearance with our botox and filler services.",
+    "image": "https://growth99.com/storage/2023/02/3-Ways-to-Run-Ads-For-Filler-For-Your-Medical-Spa-1024x683.jpg",
+    "content": "We provide Botox and dermal fillers to enhance your facial aesthetics, smoothing out wrinkles and adding volume where needed.",
+    "cases": [
+      {
+        "before": "https://example.com/before10.jpg",
+        "after": "https://example.com/after10.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "PerioDontitis",
+    "description": "Revitalize your appearance with our botox and filler services.",
+    "image": "https://www.batesondentistry.com/wp-content/uploads/2021/09/Tool-Scraping-Plaque-Off-Teeth.jpg",
+    "content": "Our periodontal services focus on the prevention, diagnosis, and treatment of gum disease, ensuring the health of your gums and overall oral hygiene.",
+    "cases": [
+      {
+        "before": "https://example.com/before11.jpg",
+        "after": "https://example.com/after11.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "x-ray",
+    "description": "Revitalize your appearance with our botox and filler services.",
+    "image": "https://www.shutterstock.com/image-photo/young-woman-patient-standing-xray-600nw-686871211.jpg",
+    "content": "X-ray services help us diagnose and plan treatments for dental issues effectively. We use advanced imaging technology for accurate assessments.",
+    "cases": [
+      {
+        "before": "https://example.com/before12.jpg",
+        "after": "https://example.com/after12.jpg"
+      }
+    ]
+  }
+]

@@ -1,10 +1,13 @@
 // src/components/Services.jsx
-"use client"; // This line makes the component a client component
+"use client";
 
 import React from "react";
+import Link from "next/link"; // Import Link from next/link
 import services from "./data.json"; // Adjust the path as needed
+import { useRouter } from "next/navigation";
 
 const Services = () => {
+  const router = useRouter();
   return (
     <div className="container mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-8 text-teal-600">
@@ -38,9 +41,11 @@ const Services = () => {
               <p className="text-gray-600 mt-2 leading-relaxed">
                 {service.description}
               </p>
-              <button className="mt-4 px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-500 transition duration-200">
-                Know More
-              </button>
+              <Link href={`dental-service/${service.id}`}>
+                <button className="mt-4 px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-500 transition duration-200">
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
         ))}
