@@ -5,6 +5,6 @@ export function getTestimonials() {
     return testimonials;
 }
 
-export function getServiceById(id) {
+export function getTestimonialById(id) {
     return testimonials.find(t => t.id == id);
 }
