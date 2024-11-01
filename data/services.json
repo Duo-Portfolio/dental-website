@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Restorative",
+      "description": "Restore damaged or decayed teeth with our advanced restorative techniques.",
+      "image": "https://lirp.cdn-website.com/5dc98d87/dms3rep/multi/opt/before-after-veneer-replace-640w.png"
+    },
+    {
+      "id": 2,
+      "title": "Orthodontic",
+      "description": "Achieve a perfect smile with our orthodontic services including braces and aligners.",
+      "image": "https://m.media-amazon.com/images/I/81YAA3vCizL.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Prosthodontic Fixed",
+      "description": "Get permanent solutions for missing teeth with our fixed prosthodontics.",
+      "image": "https://i3.wp.com/smileartsny.com/wp-content/uploads/2021/08/veneer3.jpg?ssl=1"
+    },
+    {
+      "id": 4,
+      "title": "Partial Prosthodontic",
+      "description": "Enhance your smile with our partial prosthodontic services.",
+      "image": "https://www.nelsondentalcarela.com/blog/wp-content/uploads/2021/08/AdobeStock_342694770__1625062374_41069.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Implant",
+      "description": "Replace missing teeth with dental implants that look and function like natural teeth.",
+      "image": "https://miami.institute/wp-content/uploads/2023/08/Integration-of-Digital-Workflow-in-Implant-Dentistry2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Pedodontic",
+      "description": "Specialized dental care for children to ensure healthy growth of their teeth.",
+      "image": "https://www.lovettdental.com/wp-content/uploads/2021/05/How-to-Choose-a-Pediatric-Dental-Office-3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Minor and Major Surgery",
+      "description": "Expert surgical care for various dental needs.",
+      "image": "https://ormeaudental.com.au/wp-content/uploads/2023/08/Wisdom-Tooth-X-Ray.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GA Services",
+      "description": "General anesthesia services for a comfortable dental experience.",
+      "image": "https://www.shutterstock.com/image-photo/dental-surgery-modern-clinic-woman-600nw-2482787037.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cosmetic",
+      "description": "Enhance your smile with our cosmetic dentistry options.",
+      "image": "https://www.andersonsmile.com/blog/wp-content/uploads/AdobeStock_46467358-910x1024.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "Botox/Filler Skin Care",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "https://growth99.com/storage/2023/02/3-Ways-to-Run-Ads-For-Filler-For-Your-Medical-Spa-1024x683.jpg"
+    },
+    {
+      "id": 11,
+      "title": "PerioDontitis",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "https://www.batesondentistry.com/wp-content/uploads/2021/09/Tool-Scraping-Plaque-Off-Teeth.jpg"
+    },
+    {
+      "id": 12,
+      "title": "x-ray",
+      "description": "Revitalize your appearance with our botox and filler services.",
+      "image": "https://www.shutterstock.com/image-photo/young-woman-patient-standing-xray-600nw-686871211.jpg"
+    }
+  ]
+  
