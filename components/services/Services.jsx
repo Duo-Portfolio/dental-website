@@ -14,7 +14,7 @@ const Services = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="bg-white border border-gray-300 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 hover:bg-teal-50 hover:scale-105"
+            className="bg-gradient-to-b from-teal-50 to-teal-100 border border-gray-300 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 hover:bg-teal-50"
           >
             <div
               className="w-full h-[25rem] object-cover relative"

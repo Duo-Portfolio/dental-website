@@ -1,27 +1,77 @@
 [
-    {
-      "id": 1,
-      "name": "Dr/John",
-      "feedback": "doctoral of orthodontic",
-      "designation": "orthodontic",
-      "rating": 5,
-      "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+  {
+    "id": 1,
+    "name": "Dr. John Smith",
+    "specialty": "Orthodontist",
+    "degrees": "Doctor of Orthodontics",
+    "experience": "15 years",
+    "biography": "Dr. John Smith is a highly skilled orthodontist specializing in advanced treatments to correct dental alignment. He is passionate about providing comfortable and effective care for all ages.",
+    "languages": ["English", "Spanish"],
+    "rating": 5,
+    "contact": {
+      "phone": "+1-202-555-0171",
+      "email": "dr.johnsmith@clinic.com"
     },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "feedback": "Amazing resources and a supportive community. I have learned so much!",
-      "designation": "UI/UX Designer",
-      "rating": 4,
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+    "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Doe",
+    "specialty": "Pediatric Dentist",
+    "degrees": "DDS, MSD",
+    "experience": "10 years",
+    "biography": "Dr. Jane Doe has a gentle approach, making her popular with young patients and parents. Her expertise includes preventive dental care and specialized treatments for children.",
+    "languages": ["English", "French"],
+    "rating": 4,
+    "contact": {
+      "phone": "+1-202-555-0155",
+      "email": "dr.janedoe@clinic.com"
     },
-    {
-      "id": 3,
-      "name": "Mike Johnson",
-      "feedback": "The courses are well-structured and easy to follow. I love it here!",
-      "designation": "Digital Marketer",
-      "rating": 4,
-      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-    }
-  ]
-  
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Mike Johnson",
+    "specialty": "Endodontist",
+    "degrees": "Doctor of Endodontics",
+    "experience": "12 years",
+    "biography": "Dr. Mike Johnson is known for his precision in root canal therapy and other endodontic procedures. His compassionate care helps put anxious patients at ease.",
+    "languages": ["English"],
+    "rating": 4,
+    "contact": {
+      "phone": "+1-202-555-0162",
+      "email": "dr.mikejohnson@clinic.com"
+    },
+    "avatar": "https://media.istockphoto.com/id/1372002650/photo/cropped-portrait-of-an-attractive-young-female-doctor-standing-with-her-arms-folded-in-the.jpg?s=612x612&w=0&k=20&c=o1QtStNsowOU0HSof6xQ_jZMglU8ZK565gHd655U6S4="
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sarah Lee",
+    "specialty": "Periodontist",
+    "degrees": "DDS, MS Periodontology",
+    "experience": "8 years",
+    "biography": "Dr. Sarah Lee specializes in gum health and implant dentistry. She focuses on treating and preventing periodontal disease to enhance patient oral health.",
+    "languages": ["English", "Mandarin"],
+    "rating": 5,
+    "contact": {
+      "phone": "+1-202-555-0189",
+      "email": "dr.sarahlee@clinic.com"
+    },
+    "avatar": "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Emily Brown",
+    "specialty": "Oral Surgeon",
+    "degrees": "DDS, MD",
+    "experience": "7 years",
+    "biography": "Dr. Emily Brown is an expert in oral and maxillofacial surgery. She performs wisdom teeth extractions, corrective jaw surgery, and facial trauma repair.",
+    "languages": ["English"],
+    "rating": 5,
+    "contact": {
+      "phone": "+1-202-555-0195",
+      "email": "dr.emilybrown@clinic.com"
+    },
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+  }
+]

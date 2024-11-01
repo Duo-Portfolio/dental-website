@@ -11,7 +11,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-white py-16 px-6">
+    <div className="bg-gradient-to-b from-teal-50 to-teal-100 py-16 px-6">
       <h2 className="text-4xl text-center font-bold text-teal-600 mb-10">
         Frequently Asked Questions
       </h2>

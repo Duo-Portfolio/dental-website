@@ -1,17 +1,36 @@
 {
-    "faqs": [
-      {
-        "question": "What services do you offer?",
-        "answer": "We offer a wide range of services, including dental consultations, cleanings, and specialized treatments. Our team is here to help you with all of your dental needs."
-      },
-      {
-        "question": "How can I book an appointment?",
-        "answer": "You can book an appointment through our website or call us directly. Our staff will be happy to assist you in finding a convenient time."
-      },
-      {
-        "question": "Do you accept insurance?",
-        "answer": "Yes, we work with many insurance providers. Please contact us to confirm if we accept your insurance."
-      }
-    ]
-  }
-  
+  "faqs": [
+    {
+      "question": "What services do you offer?",
+      "answer": "We offer a wide range of services, including dental consultations, cleanings, and specialized treatments. Our team is here to help you with all of your dental needs."
+    },
+    {
+      "question": "How can I book an appointment?",
+      "answer": "You can book an appointment through our website or call us directly. Our staff will be happy to assist you in finding a convenient time."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Yes, we work with many insurance providers. Please contact us to confirm if we accept your insurance."
+    },
+    {
+      "question": "What should I bring to my first appointment?",
+      "answer": "Please bring a valid ID, your insurance card (if applicable), and any previous dental records if available. This will help us better understand your dental history."
+    },
+    {
+      "question": "How often should I visit the dentist?",
+      "answer": "We recommend visiting the dentist every six months for a routine checkup and cleaning to maintain good oral health and catch any issues early."
+    },
+    {
+      "question": "Do you offer emergency dental services?",
+      "answer": "Yes, we offer emergency dental services. If you have a dental emergency, please call us immediately, and we will do our best to accommodate you as soon as possible."
+    },
+    {
+      "question": "What payment options are available?",
+      "answer": "We accept various payment methods, including cash, credit cards, and many insurance plans. Additionally, we offer flexible payment plans for qualifying treatments."
+    },
+    {
+      "question": "Are your treatments safe for children?",
+      "answer": "Absolutely. We provide specialized pediatric care, ensuring that our treatments are safe and comfortable for children of all ages."
+    }
+  ]
+}

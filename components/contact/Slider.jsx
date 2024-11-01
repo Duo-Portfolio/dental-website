@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from "react";
 
 const images = [
-  "/path/to/your/image1.jpg", // Replace with your image paths
-  "/path/to/your/image2.jpg",
-  "/path/to/your/image3.jpg",
+  "https://verainterior.com/wp-content/uploads/2024/05/Dental-Clinic-Interior-Design-jpg.webp", // Replace with your image paths
+  "https://i.pinimg.com/originals/d3/6a/67/d36a676ab7805c355eddfadc0beab80a.jpg",
+  "https://www.atelierzoz.com/wp-content/uploads/2022/11/atelierzoz-works-dental-clinic-7.jpg",
 ];
 
 const Slider = () => {
