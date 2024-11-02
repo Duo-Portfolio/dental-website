@@ -3,104 +3,140 @@ import Link from "next/link";
 import { getDoctors } from "@/model/doctors";
 
 const Navbar = () => {
-  const doctors = getDoctors();
+  const doctors = getDoctors() || []; // Ensure doctors is always an array
+
+  // Navigation items configuration
+  const navItems = [
+    { label: "Home", href: "/" },
+    { label: "Services", href: "/#services" },
+    {
+      label: "About Us",
+      href: "/about",
+      dropdown: [
+        { label: "Our Mission", href: "/about/mission" },
+        { label: "Careers", href: "/about/careers" },
+      ],
+    },
+    {
+      label: "Meet Our Doctors",
+      dropdown:
+        doctors.length > 0
+          ? doctors.map((doctor) => ({
+              label: doctor.name,
+              href: `/our-doctors/${doctor.id}`,
+            }))
+          : [], // Ensure dropdown is empty if no doctors are available
+    },
+    {
+      label: "Contact",
+      href: "/#contact",
+    },
+  ];
 
   return (
     <nav className="bg-white shadow-lg">
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-6">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-6">
         {/* Logo */}
-        <div className="flex items-center text-teal-700 text-3xl font-bold transform hover:scale-105 transition-transform duration-300 hover:animate-bounce">
+        <div className="flex items-center text-teal-700 text-3xl font-bold transform hover:scale-105 transition-transform duration-300 hover:animate-bounce mb-4 md:mb-0">
           <FaTooth className="mr-2" />
           <span className="font-serif">Dental Clinic</span>
         </div>
 
-        {/* Nav Links */}
-        <div className="flex-grow flex justify-center">
-          <ul className="flex space-x-9">
-            <li>
-              <Link href="/">
-                <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer relative group">
-                  Home
-                  <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/#services" scroll={true}>
-                <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer relative group">
-                  Services
-                  <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </span>
-              </Link>
-            </li>
-
-            {/* About Us with Dropdown */}
-            <li className="relative group">
-              <Link href="/about">
-                <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer">
-                  About Us
-                  <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </span>
-              </Link>
-
-              {/* Dropdown Links for "About Us" */}
-              <ul className="absolute left-0 mt-2 w-40 bg-white border border-gray-200 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out transform z-50">
-                <li>
-                  <Link
-                    href="/about/mission"
-                    className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
-                  >
-                    Our Mission
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/about/careers"
-                    className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
-                  >
-                    Careers
-                  </Link>
-                </li>
-              </ul>
-            </li>
-
-            {/* Meet Our Doctors with Separate Dropdown */}
-            <li className="relative group">
-              <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer">
-                Meet Our Doctors
-                <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-              </span>
-
-              {/* Dropdown Links for "Meet Our Doctors" */}
-              <ul className="absolute left-0 mt-2 w-40 bg-white border border-gray-200 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out transform z-50">
-                {doctors.map((doctor) => (
-                  <li key={doctor.id}>
+        {/* Hamburger Button */}
+        <div className="md:hidden">
+          <label
+            htmlFor="menu-toggle"
+            className="cursor-pointer text-[40px] text-black"
+          >
+            <span className="material-icons">menu</span>
+          </label>
+          <input type="checkbox" id="menu-toggle" className="hidden peer" />
+          <div className="absolute left-0 z-10 w-40 mt-2 bg-white border border-gray-200 shadow-lg rounded-lg hidden peer-checked:block">
+            <ul className="flex flex-col">
+              {navItems.map((item, index) => (
+                <li key={index}>
+                  {item.dropdown ? (
+                    <span className="relative group block px-4 py-2 text-gray-700 cursor-pointer">
+                      {item.label}
+                      <span className="absolute left-0 top-full mt-1 w-40 bg-white border border-gray-200 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out transform z-50 invisible group-hover:visible">
+                        {item.dropdown.map((subItem, subIndex) => (
+                          <Link
+                            key={subIndex}
+                            href={subItem.href}
+                            className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
+                          >
+                            {subItem.label}
+                          </Link>
+                        ))}
+                      </span>
+                    </span>
+                  ) : (
                     <Link
-                      href={`/our-doctors/${doctor.id}`}
+                      href={item.href}
                       className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
                     >
-                      {doctor.name}
+                      {item.label}
                     </Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
 
-            <li>
-              <Link href="/#contact" scroll={true}>
-                <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer relative group">
-                  Contact
-                  <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-                </span>
-              </Link>
-            </li>
+        {/* Nav Links */}
+        <div className="hidden md:flex md:justify-center flex-grow">
+          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-9">
+            {navItems.map((item, index) => (
+              <li key={index} className="relative group">
+                {item.label === "Meet Our Doctors" ? (
+                  <span className="font-serif text-gray-700 text-lg cursor-pointer relative group">
+                    {item.label}
+                    <span className="absolute left-0 -bottom-1 w-full h-1 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                    <span className="absolute left-0 top-full mt-1 w-40 bg-white border border-gray-200 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out transform z-50 invisible group-hover:visible">
+                      {item.dropdown?.map((subItem, subIndex) => (
+                        <Link
+                          key={subIndex}
+                          href={subItem.href}
+                          className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
+                        >
+                          {subItem.label}
+                        </Link>
+                      ))}
+                    </span>
+                  </span>
+                ) : (
+                  <>
+                    <Link href={item.href}>
+                      <span className="font-serif text-gray-700 text-lg hover:text-teal-600 transition duration-300 cursor-pointer relative group">
+                        {item.label}
+                        <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-teal-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                      </span>
+                    </Link>
+                    {item.dropdown?.length > 0 && (
+                      <span className="absolute left-0 top-full w-40 bg-white border border-gray-200 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out transform z-50 invisible group-hover:visible">
+                        {item.dropdown.map((subItem, subIndex) => (
+                          <Link
+                            key={subIndex}
+                            href={subItem.href}
+                            className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
+                          >
+                            {subItem.label}
+                          </Link>
+                        ))}
+                      </span>
+                    )}
+                  </>
+                )}
+              </li>
+            ))}
           </ul>
         </div>
 
         {/* Right Section */}
         <div className="flex items-center">
           <Link href="/appointment">
-            <span className="bg-teal-600 text-white rounded-full px-6 py-2 font-semibold hover:bg-teal-700 transition duration-300 shadow-lg cursor-pointer transform hover:scale-105">
+            <span className="bg-gradient-to-r from-teal-500 to-teal-600 text-white rounded-full px-8 py-3 font-semibold text-lg hover:bg-teal-700 transition duration-300 shadow-lg cursor-pointer transform hover:scale-105 hover:shadow-xl">
               Book Appointment
             </span>
           </Link>

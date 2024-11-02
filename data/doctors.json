@@ -2,7 +2,7 @@
     {
       "id": "doctor1",
       "name": "Dr. Sarah Smith",
-      "image": "/images/doctors/doctor1.jpg",
+      "image": "https://media.istockphoto.com/id/1277540215/photo/portrait-of-a-caucasian-female-dentist-in-her-office.jpg?s=612x612&w=0&k=20&c=e2wmX8LcTZTiAZzbrc6iOUPXaqjcy9qUKmhRQcPYfqI=",
       "education": [
         {
           "degree": "Doctor of Dental Surgery (DDS)",
@@ -32,21 +32,28 @@
         }
       ],
       "quote": "My passion is to bring back the confidence in every smile, ensuring a healthy and beautiful outcome for each patient.",
-      "specialties": ["Cosmetic Dentistry", "Prosthodontics", "Smile Makeovers"],
-      "certifications": [
+      "specialties": [
+      {
+        "name": "Cosmetic Dentistry",
+        "icon": "/crown.svg"
+      },
+      {
+        "name": "Prosthodontics",
+        "icon": "/crown.svg"
+      },
+      {
+        "name": "Smile Makeovers",
+        "icon": "/crown.svg"
+      }
+    ],      "certifications": [
         "Certified in Advanced Implantology",
         "Accredited Member of the American Academy of Cosmetic Dentistry"
-      ],
-      "languages": ["English", "Spanish"],
-      "contact": {
-        "email": "dr.smith@dentalclinic.com",
-        "phone": "+1-555-0101"
-      }
+      ]
     },
     {
       "id": "doctor2",
       "name": "Dr. Michael Johnson",
-      "image": "/images/doctors/doctor2.jpg",
+      "image": "https://media.istockphoto.com/id/1371009338/photo/portrait-of-confident-a-young-dentist-working-in-his-consulting-room.jpg?s=612x612&w=0&k=20&c=I212vN7lPpAOwGKRoEY9kYWunJaMj9vH2g-8YBGc2MI=",
       "education": [
         {
           "degree": "Doctor of Dental Medicine (DMD)",
@@ -76,21 +83,24 @@
         }
       ],
       "quote": "I believe in treating not just the symptoms but addressing the root cause to ensure long-lasting oral health.",
-      "specialties": ["Endodontics", "Periodontology", "Root Canal Therapy"],
-      "certifications": [
+"specialties": [
+      {
+        "name": "Endodontics",
+        "icon": "/endo.svg"
+      },
+      {
+        "name": "Periodontology",
+        "icon": "/crown.svg"
+      }
+    ],      "certifications": [
         "Board-Certified Periodontist",
         "Certified in Advanced Root Canal Procedures"
-      ],
-      "languages": ["English"],
-      "contact": {
-        "email": "dr.johnson@dentalclinic.com",
-        "phone": "+1-555-0202"
-      }
+      ]
     },
     {
       "id": "doctor3",
       "name": "Dr. Emily Brown",
-      "image": "/images/doctors/doctor3.jpg",
+      "image": "https://www.didsburydentalpractice.dentist/wp-content/uploads/2023/04/shutterstock_1941089122.jpg",
       "education": [
         {
           "degree": "Bachelor of Dental Surgery (BDS)",
@@ -116,20 +126,27 @@
           "position": "Head of Pediatric Dentistry",
           "location": "Bright Smiles Pediatric Clinic, Los Angeles",
           "years": "2020-Present",
-          "responsibilities": "Oversees pediatric dental care, focusing on preventive treatments and educating parents on children’s oral health. Works closely with families to create a positive dental experience for young patients."
+          "responsibilities": "Oversees pediatric dental care, focusing on preventive treatments and educating parents on children&#8217;s oral health. Works closely with families to create a positive dental experience for young patients."
         }
       ],
       "quote": "Creating a fun and safe environment for children is key to helping them develop lifelong healthy dental habits.",
-      "specialties": ["Pediatric Dentistry", "Preventive Dentistry", "Family Dentistry"],
-      "certifications": [
+"specialties": [
+      {
+        "name": "Pediatric Dentistry",
+        "icon": "/endo.svg"
+      },
+      {
+        "name": "Preventive Dentistry",
+        "icon": "/endo.svg"
+      },
+      {
+        "name": "Family Dentistry",
+        "icon": "/endo.svg"
+      }
+    ],      "certifications": [
         "Certified Pediatric Dentist",
         "Member of the American Academy of Pediatric Dentistry"
-      ],
-      "languages": ["English", "French"],
-      "contact": {
-        "email": "dr.brown@dentalclinic.com",
-        "phone": "+1-555-0303"
-      }
+      ]
     }
   ]
   

@@ -11,12 +11,18 @@ const Testimonials = async ({ doctorId }) => {
 
   // If no testimonials exist for this doctor
   if (!doctorTestimonials || doctorTestimonials.length === 0) {
-    return <p>No testimonials available for this doctor.</p>;
+    return (
+      <p className="text-center text-gray-500">
+        No testimonials available for this doctor.
+      </p>
+    );
   }
 
   return (
     <div className="space-y-6 p-6 bg-gray-100 rounded-lg shadow-lg">
-      <h2 className="text-2xl font-bold text-teal-700">Patient Testimonials</h2>
+      <h2 className="text-2xl font-bold text-teal-700 text-center">
+        Patient Testimonials
+      </h2>
       {doctorTestimonials.map((testimonial, index) => (
         <div
           key={index}

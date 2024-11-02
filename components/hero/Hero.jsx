@@ -17,12 +17,12 @@ const Hero = ({ src }) => {
           {/* Fallback for browsers that don't support the video tag */}
           Your browser does not support the video tag.
         </video>
-        <div className="absolute inset-0 bg-black opacity-50 z-0"></div>{" "}
+        <div className="absolute inset-0 bg-black opacity-30 z-0"></div>{" "}
         {/* Darker overlay for better text visibility */}
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight tracking-tight drop-shadow-md bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-200">
+        <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight tracking-tight drop-shadow-md bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-teal-200">
           Welcome to Our Dental Clinic
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-md text-gray-200">
@@ -30,7 +30,7 @@ const Hero = ({ src }) => {
         </p>
 
         <Link href="/appointment">
-          <span className="inline-block bg-teal-500 text-white rounded-full px-10 py-4 font-semibold text-lg lg:text-xl shadow-lg transition duration-300 transform hover:bg-teal-600 hover:scale-105">
+          <span className="inline-block bg-teal-600 text-white rounded-full px-10 py-4 font-semibold text-lg lg:text-xl shadow-lg transition duration-300 transform hover:bg-teal-600 hover:scale-105">
             Book Appointment
           </span>
         </Link>

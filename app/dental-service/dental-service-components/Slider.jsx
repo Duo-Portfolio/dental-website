@@ -25,15 +25,15 @@ const Slider = ({ cases }) => {
       <h2 className="text-3xl font-bold text-teal-600 text-center mb-4">
         Before and After Cases
       </h2>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center flex-col md:flex-row">
         <button
           onClick={prevCase}
-          className="p-3 bg-teal-600 text-white rounded-full shadow-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105"
+          className="bg-teal-600 text-white rounded-full shadow-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105 mb-4 md:mb-0 md:mr-12 w-10 h-10 flex items-center justify-center"
         >
           &lt;
         </button>
 
-        <div className="relative mx-4">
+        <div className="relative mx-4 w-full max-w-xs md:max-w-md lg:max-w-lg">
           <div className="transition-transform duration-500 ease-in-out transform">
             <Image
               src={cases[currentCaseIndex].before}
@@ -62,7 +62,7 @@ const Slider = ({ cases }) => {
 
         <button
           onClick={nextCase}
-          className="p-3 bg-teal-600 text-white rounded-full shadow-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105"
+          className="bg-teal-600 text-white rounded-full shadow-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105 mb-4 md:mb-0 md:ml-2 w-10 h-10 flex items-center justify-center"
         >
           &gt;
         </button>

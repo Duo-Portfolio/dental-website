@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 "use client";
 import React from "react";
 import Link from "next/link"; // Import Link for client-side navigation
@@ -12,8 +11,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-teal-600 text-white py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-teal-600 text-white py-10 px-4 md:px-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Contact Information */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
@@ -142,16 +141,16 @@ const Footer = () => {
         <h3 className="text-lg font-semibold mb-4 text-center">
           Join Our Newsletter
         </h3>
-        <form className="flex justify-center mb-4">
+        <form className="flex flex-col sm:flex-row justify-center mb-4">
           <input
             type="email"
             placeholder="Your email"
-            className="p-2 rounded-md text-black w-1/3"
+            className="p-2 rounded-md text-black w-full sm:w-1/3 mb-2 sm:mb-0"
             required
           />
           <button
             type="submit"
-            className="bg-teal-300 text-teal-600 font-semibold p-2 rounded-md transition duration-200 hover:bg-yellow-300 ml-2"
+            className="bg-teal-300 text-teal-600 font-semibold p-2 rounded-md transition duration-200 hover:bg-yellow-300 sm:ml-2"
           >
             <FaEnvelope className="inline mr-2" /> Subscribe
           </button>
