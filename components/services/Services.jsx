@@ -8,7 +8,7 @@ const Services = async () => {
   const services = await getServices(); // Await if this function returns a Promise
 
   return (
-    <div className="container mx-auto p-6">
+    <div id="services" className="container mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-8 text-teal-600">
         Our Dental Services
       </h2>

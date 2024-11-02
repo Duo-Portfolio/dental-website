@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-teal-600 py-16 px-6">
+    <div id="contact" className="bg-teal-600 py-16 px-6">
       <h2 className="text-4xl text-center font-bold text-white mb-10">
         Contact Us
       </h2>

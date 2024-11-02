@@ -4,13 +4,13 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
 import { MdPhone, MdEmail } from "react-icons/md";
-import { getTestimonials } from "@/model/testimonials";
+import { getHomePageDoctors } from "@/model/home-page-doctors";
 
 const Testimonials = () => {
   const scrollerRef = useRef(null);
   const [start, setStart] = useState(false);
 
-  const testimonialsData = getTestimonials();
+  const homePageDoctorsData = getHomePageDoctors();
 
   useEffect(() => {
     addAnimation();
@@ -49,7 +49,7 @@ const Testimonials = () => {
             }`}
             style={{ animation: "scroll 40s linear infinite" }}
           >
-            {testimonialsData.map((doctor) => (
+            {homePageDoctorsData.map((doctor) => (
               <li
                 key={doctor.id}
                 className="bg-white p-8 rounded-xl shadow-lg transition-shadow duration-300 flex flex-col justify-between"

@@ -1,0 +1,54 @@
+[
+    {
+        "doctorId": "doctor1",
+        "testimonials": [
+        {
+          "patientName": "John Doe",
+          "date": "2024-08-15",
+          "rating": 5,
+          "comments": "Dr. Emily has been fantastic! She explained everything clearly, and the procedure was quick and painless."
+        },
+        {
+          "patientName": "Sarah Wilson",
+          "date": "2024-09-10",
+          "rating": 4,
+          "comments": "Great experience with Dr. Emily. The wait time was a bit long, but the service was excellent."
+        }
+      ]
+    },
+    {
+        "doctorId": "doctor2",
+        "testimonials": [
+        {
+          "patientName": "Michael Lee",
+          "date": "2024-07-22",
+          "rating": 5,
+          "comments": "Dr. Michael was thorough and very understanding. I felt completely at ease. Highly recommend!"
+        },
+        {
+          "patientName": "Ana Garcia",
+          "date": "2024-09-30",
+          "rating": 4,
+          "comments": "Dr. Michael is very professional and attentive. A bit of a wait, but worth it for the quality care."
+        }
+      ]
+    },
+    {
+        "doctorId": "doctor3",
+        "testimonials": [
+        {
+          "patientName": "David Brown",
+          "date": "2024-06-18",
+          "rating": 5,
+          "comments": "Dr. Sarah's skills are unmatched. I had a smooth experience and will be back for regular check-ups."
+        },
+        {
+          "patientName": "Emily Clark",
+          "date": "2024-10-05",
+          "rating": 5,
+          "comments": "Absolutely wonderful experience with Dr. Sarah. Highly knowledgeable and friendly."
+        }
+      ]
+    }
+  ]
+  

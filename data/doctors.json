@@ -1,0 +1,135 @@
+[
+    {
+      "id": "doctor1",
+      "name": "Dr. Sarah Smith",
+      "image": "/images/doctors/doctor1.jpg",
+      "education": [
+        {
+          "degree": "Doctor of Dental Surgery (DDS)",
+          "institution": "Harvard School of Dental Medicine",
+          "year": "2010-2014",
+          "details": "Specialized in prosthodontics and cosmetic dentistry, graduating with honors. Completed advanced coursework in dental implants and restorative procedures."
+        },
+        {
+          "degree": "Master of Science in Dental Research",
+          "institution": "University of California, San Francisco",
+          "year": "2015-2017",
+          "details": "Focused on oral and craniofacial sciences, conducting research on minimally invasive dental treatments and patient-centered care."
+        }
+      ],
+      "workExperience": [
+        {
+          "position": "Senior Prosthodontist",
+          "location": "Smile Dental Clinic, New York",
+          "years": "2017-2022",
+          "responsibilities": "Led a team of dental specialists, focusing on restorative and cosmetic procedures, including veneers, crowns, and implants. Developed tailored treatment plans to improve patient aesthetics and function."
+        },
+        {
+          "position": "Consultant in Cosmetic Dentistry",
+          "location": "Bright Smiles Dental Group, Boston",
+          "years": "2022-Present",
+          "responsibilities": "Specializes in aesthetic and smile makeovers, collaborating with other dental professionals to deliver comprehensive care. Utilizes the latest technology to ensure patient comfort and satisfaction."
+        }
+      ],
+      "quote": "My passion is to bring back the confidence in every smile, ensuring a healthy and beautiful outcome for each patient.",
+      "specialties": ["Cosmetic Dentistry", "Prosthodontics", "Smile Makeovers"],
+      "certifications": [
+        "Certified in Advanced Implantology",
+        "Accredited Member of the American Academy of Cosmetic Dentistry"
+      ],
+      "languages": ["English", "Spanish"],
+      "contact": {
+        "email": "dr.smith@dentalclinic.com",
+        "phone": "+1-555-0101"
+      }
+    },
+    {
+      "id": "doctor2",
+      "name": "Dr. Michael Johnson",
+      "image": "/images/doctors/doctor2.jpg",
+      "education": [
+        {
+          "degree": "Doctor of Dental Medicine (DMD)",
+          "institution": "University of Pennsylvania School of Dental Medicine",
+          "year": "2009-2013",
+          "details": "Graduated magna cum laude with a focus on endodontics and periodontics. Conducted research on periodontal disease prevention and treatment."
+        },
+        {
+          "degree": "Advanced Certification in Periodontology",
+          "institution": "Columbia University College of Dental Medicine",
+          "year": "2014-2016",
+          "details": "Specialized training in treating complex periodontal cases, including regenerative procedures and advanced gum surgeries."
+        }
+      ],
+      "workExperience": [
+        {
+          "position": "Periodontist and Endodontist",
+          "location": "Healthy Gums Dental, Philadelphia",
+          "years": "2016-2021",
+          "responsibilities": "Managed a wide range of periodontal and endodontic cases, including root canal therapies and gum graft surgeries. Known for patient-centered approach and effective pain management techniques."
+        },
+        {
+          "position": "Lead Endodontist",
+          "location": "Prime Dental Associates, Chicago",
+          "years": "2021-Present",
+          "responsibilities": "Oversees endodontic treatments, ensuring the highest quality of care for root canal and pulp therapy patients. Focuses on minimally invasive techniques to preserve tooth integrity."
+        }
+      ],
+      "quote": "I believe in treating not just the symptoms but addressing the root cause to ensure long-lasting oral health.",
+      "specialties": ["Endodontics", "Periodontology", "Root Canal Therapy"],
+      "certifications": [
+        "Board-Certified Periodontist",
+        "Certified in Advanced Root Canal Procedures"
+      ],
+      "languages": ["English"],
+      "contact": {
+        "email": "dr.johnson@dentalclinic.com",
+        "phone": "+1-555-0202"
+      }
+    },
+    {
+      "id": "doctor3",
+      "name": "Dr. Emily Brown",
+      "image": "/images/doctors/doctor3.jpg",
+      "education": [
+        {
+          "degree": "Bachelor of Dental Surgery (BDS)",
+          "institution": "King's College London Dental Institute",
+          "year": "2007-2011",
+          "details": "Specialized in pediatric and family dentistry, with hands-on experience in treating young patients and focusing on preventive care."
+        },
+        {
+          "degree": "Diploma in Pediatric Dentistry",
+          "institution": "New York University College of Dentistry",
+          "year": "2012-2014",
+          "details": "Advanced training in child dental care, sedation dentistry, and behavior management for pediatric patients."
+        }
+      ],
+      "workExperience": [
+        {
+          "position": "Pediatric Dentist",
+          "location": "Happy Kids Dental, San Francisco",
+          "years": "2014-2020",
+          "responsibilities": "Specialized in treating young patients, including preventive and restorative procedures. Developed programs to educate children on proper dental hygiene."
+        },
+        {
+          "position": "Head of Pediatric Dentistry",
+          "location": "Bright Smiles Pediatric Clinic, Los Angeles",
+          "years": "2020-Present",
+          "responsibilities": "Oversees pediatric dental care, focusing on preventive treatments and educating parents on children’s oral health. Works closely with families to create a positive dental experience for young patients."
+        }
+      ],
+      "quote": "Creating a fun and safe environment for children is key to helping them develop lifelong healthy dental habits.",
+      "specialties": ["Pediatric Dentistry", "Preventive Dentistry", "Family Dentistry"],
+      "certifications": [
+        "Certified Pediatric Dentist",
+        "Member of the American Academy of Pediatric Dentistry"
+      ],
+      "languages": ["English", "French"],
+      "contact": {
+        "email": "dr.brown@dentalclinic.com",
+        "phone": "+1-555-0303"
+      }
+    }
+  ]
+  
